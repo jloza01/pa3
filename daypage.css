@@ -4,12 +4,15 @@
     font-family: Arial;
     margin: 0px;
 }
+
 body {
     padding: 0px;
 }
+
 body.norm{
     padding: 30px;
 }
+
 h1 {
     height: 90px;
     width: 100%;
@@ -22,6 +25,7 @@ h1 {
     font-size: 50px;
     line-height: 90px;
 }
+
 h2 {
     width: 100%;
     background-color: transparent;
@@ -39,8 +43,19 @@ h3 {
     font-weight: 1000;
     color: #516067;
     font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    width: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-weight: 1000;
+    color: #516067;
+    font-size: 30px;
     padding-inline-start: 15px;
 }
+
 ul {
     font-family: Arial;
     font-weight: 1000;
@@ -48,16 +63,21 @@ ul {
     font-size: 20px;
 }
 
-h4 {
+h5 {
     height: 30px;
     width: 100px;
-    background-color: #d1c48b;
     font-family: Arial;
     font-weight: 1000;
     color: #516067;
     font-size: 25px;
     text-align: center;
     line-height: 30px;
-    border: 1px none #000000;
-    border-radius: 10%;
+    border: 1px solid #000000;
+    position: fixed;
+    right: 15px;
+}
+p {
+    position: fixed;
+    left: 15px;
+    bottom: 20px
 }
