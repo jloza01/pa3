@@ -56,3 +56,16 @@ td {
 tr {
     vertical-align: text-top;
 }
+h3 {
+    width: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-weight: 1000;
+    color: #516067;
+    font-size: 30px;
+    padding-inline-start: 15px;
+    padding-top: 20px;
+}
+p {
+    padding-inline-start: 15px;
+}
