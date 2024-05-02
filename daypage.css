@@ -105,8 +105,19 @@ h5 {
     position: fixed;
     right: 15px;
 }
-p {
+h6 {
+    width: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-weight: 1000;
+    color: #516067;
+    font-size: 30px;
     position: fixed;
+    left: 15px;
+    bottom: 40px
+}
+p {
+    position: absolute;
     left: 15px;
     bottom: 15px
 }
